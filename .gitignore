@@ -5,3 +5,7 @@
 # React Router
 /.react-router/
 /build/
+
+# Styling
+app/styles/app.css
+app/styles/app.css.map
