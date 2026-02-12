@@ -1,0 +1,12 @@
+@use "../utilities/variables";
+.page-heading-container {
+  h1 {
+    margin: 0;
+  }
+  width: fit-content;
+  margin: 0px auto 96px auto;
+}
+.page-heading {
+  color: white;
+  font-family: variables.$mainFont;
+}
