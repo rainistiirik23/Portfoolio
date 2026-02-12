@@ -1,12 +1,12 @@
-import { HeaderBar } from "~/components/headerBar";
+import { HeaderNavigation } from "~/components/headerNavigation";
 import { PageNavigationBar } from "~/components/pageNavigationBar";
 
 export function Contact() {
   return (
     <>
-      <head>
-        <HeaderBar />
-      </head>
+      <header>
+        <HeaderNavigation />
+      </header>
       <main>
         <div>
           <ul>
