@@ -1,0 +1,79 @@
+@use "../utilities/variables" as variables;
+
+.introduction-container {
+  h2 {
+    margin: 0;
+  }
+  .introduction-headers-second {
+    margin: 0px 0px 0px 135px;
+  }
+  display: flex;
+  flex-direction: column;
+  column-gap: 223px;
+  width: 617px;
+  margin: 0px auto 0px auto;
+}
+.introduction-headers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: variables.$mainFont;
+  display: flex;
+  flex-direction: column;
+  gap: 105px;
+  font-size: larger;
+  color: white;
+}
+.introduction-container-unordered-icon-links-list {
+  padding: 0;
+  margin: 223px 0px 0px 0px;
+  li {
+    list-style: none;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 98.74px;
+}
+
+@media screen and (max-width: 634px) {
+  .introduction-container {
+    h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+    padding: 17px 47.41px 133.82px 51px;
+    .introduction-headers-second {
+      margin-left: 60.13px;
+      height: 39px;
+      width: 206px;
+    }
+    display: flex;
+    flex-direction: column;
+    column-gap: 223px;
+    width: 220.75px;
+    margin: 0px auto 0px auto;
+  }
+  .introduction-headers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: variables.$mainFont;
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    font-size: larger;
+    color: white;
+  }
+  .introduction-container-unordered-icon-links-list {
+    padding: 0;
+    margin: 223px 0px 0px 0px;
+    li {
+      list-style: none;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 72px;
+  }
+}

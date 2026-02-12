@@ -1,0 +1,158 @@
+@use "../utilities/variables";
+.projects-container {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+.unordered-project-list-container {
+  display: flex;
+  justify-content: center;
+}
+.unordered-project-list-item {
+  max-height: 584px;
+  padding: 33px 88.45px 34.13px 56px;
+  border: red solid;
+  border-radius: 25px;
+}
+.project-title {
+  color: white;
+  font-family: variables.$mainFont;
+  /* margin: 33px 0px 22px 56px; */
+  font-size: 20px;
+  margin: 0;
+}
+
+.project-details-container {
+  margin-left: 39px;
+}
+.project-description {
+  color: white;
+  font-family: variables.$mainFont;
+
+  margin-bottom: 24px;
+}
+.unordered-used-tool-list-container {
+  margin-bottom: 42px;
+}
+.unordered-used-tool-list {
+  width: 350px;
+  display: flex;
+  gap: 10.45px;
+  flex-wrap: wrap;
+}
+.unordered-used-tool-list-item {
+  width: 75.55px;
+  height: 21px;
+  border: #196673 solid;
+  border-width: thin;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6px 0px 6px 0px;
+}
+.used-tool-name-for-project {
+  color: white;
+  font-family: variables.$mainFont;
+  font-size: 12px;
+  width: fit-content;
+  margin: auto;
+  /* text-align: center; */
+}
+.project-thumbnail {
+  width: 335.55px;
+  height: 260px;
+  background-color: #196673;
+
+  border-radius: 25px;
+  margin-bottom: 32px;
+}
+.project-unordered-icons-list-container {
+  padding-left: 50px;
+}
+.project-icons-unordered-list {
+  margin-left: 145px;
+  display: flex;
+  gap: 58.74px;
+  padding-left: 50px;
+}
+
+//---------------------------------------------------------------
+
+//Responsive design starts after
+
+//---------------------------------------------------------------
+
+@media screen and (max-width: 551px) {
+  .project-container {
+    width: 169px;
+  }
+  .project-details-container {
+    margin-left: 23px;
+  }
+  .project-title {
+    color: white;
+    font-family: variables.$mainFont;
+    /* margin: 33px 0px 22px 56px; */
+    font-size: 16px;
+    margin: 0;
+  }
+  .project-description {
+    color: white;
+    font-family: variables.$mainFont;
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+  .project-thumbnail {
+    width: 146px;
+    height: 260px;
+    background-color: #196673;
+
+    border-radius: 25px;
+    margin-bottom: 32px;
+  }
+  .unordered-project-list-item {
+    /* max-height: 584px; */
+    padding: 31px 51px 66px 28px;
+    border: red solid;
+    border-radius: 25px;
+  }
+  .unordered-used-tool-list {
+    width: 138px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .unordered-used-tool-list-item {
+    width: 60px;
+    height: 21px;
+    border: #196673 solid;
+    border-width: thin;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6px 0px 6px 0px;
+  }
+  .used-tool-name-for-project {
+    color: white;
+    font-family: variables.$mainFont;
+    font-size: 10px;
+    width: fit-content;
+    margin: auto;
+    /* text-align: center; */
+  }
+  .project-unordered-icons-list-container {
+    padding-left: 0px;
+  }
+  .project-icons-unordered-list {
+    display: flex;
+    gap: 36.34px;
+  }
+  .project-icon {
+    height: 25px;
+    width: 24.66px;
+  }
+}
