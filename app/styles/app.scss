@@ -1,0 +1,19 @@
+@use "./pages/home";
+@use "./pages/skills";
+@use "./pages/projects";
+
+body {
+  background-color: #010018;
+  opacity: 0.98;
+  margin: 0;
+}
+main {
+  padding-top: 167px;
+}
+/* footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+ */
