@@ -1,0 +1,47 @@
+@use "../utilities/variables" as variables;
+header {
+  width: 100%;
+  height: 79px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header-navigation {
+  ul {
+    list-style: none;
+  }
+  h1 {
+    margin: 0;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #030032;
+  padding-left: 63.74px;
+  padding-right: 63.74px;
+  height: 79px;
+  border-bottom: #295f81 solid;
+  border-width: thin;
+}
+.header-navigation-heading-name-container {
+  color: white;
+  font-family: variables.$mainFont;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-navigation-unordered-icons-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-navigation-unordered-icons-list {
+  display: flex;
+  flex-direction: row;
+  gap: 54.85px;
+  width: 127.36px;
+  padding: 0;
+  margin: 0;
+}
