@@ -13,7 +13,8 @@
 .unordered-project-list-item {
   max-height: 584px;
   padding: 33px 88.45px 34.13px 56px;
-  border: red solid;
+  border: #3e5cef solid;
+  border-width: thin;
   border-radius: 25px;
 }
 .project-title {
@@ -116,7 +117,7 @@
   .unordered-project-list-item {
     /* max-height: 584px; */
     padding: 31px 51px 66px 28px;
-    border: red solid;
+    border: #3e5cef solid;
     border-radius: 25px;
   }
   .unordered-used-tool-list {
