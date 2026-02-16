@@ -22,13 +22,28 @@ export function Welcome() {
           <div>
             <ul className="introduction-container-unordered-icon-links-list">
               <li>
-                <ReactSVG src={linkedInIcon}></ReactSVG>
+                <ReactSVG
+                  src={linkedInIcon}
+                  beforeInjection={(svg) => {
+                    svg.classList.add("introduction-icons");
+                  }}
+                ></ReactSVG>
               </li>
               <li>
-                <ReactSVG src={githubIcon}></ReactSVG>
+                <ReactSVG
+                  src={githubIcon}
+                  beforeInjection={(svg) => {
+                    svg.classList.add("introduction-icons");
+                  }}
+                ></ReactSVG>
               </li>
               <li>
-                <ReactSVG src={emailIcon}></ReactSVG>
+                <ReactSVG
+                  src={emailIcon}
+                  beforeInjection={(svg) => {
+                    svg.classList.add("introduction-icons");
+                  }}
+                ></ReactSVG>
               </li>
             </ul>
           </div>
