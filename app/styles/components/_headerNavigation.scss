@@ -45,3 +45,13 @@ header {
   padding: 0;
   margin: 0;
 }
+@media screen and (max-width: 380px) {
+  .header-navigation {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .header-navigation-unordered-icons-list {
+    gap: 54.54px;
+  }
+}
