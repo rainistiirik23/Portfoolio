@@ -42,7 +42,7 @@
       margin: 0;
       font-size: 18px;
     }
-    padding: 17px 47.41px 133.82px 51px;
+
     .introduction-headers-second {
       margin-left: 60.13px;
       height: 39px;
@@ -75,5 +75,8 @@
     flex-direction: row;
     justify-content: center;
     gap: 72px;
+  }
+  .introduction-icons {
+    height: 30px;
   }
 }
