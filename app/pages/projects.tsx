@@ -71,14 +71,19 @@ export function Projects() {
                     <div className="project-thumbnail"></div>
                     <div className="project-unordered-icons-list-container">
                       <ul className="project-icons-unordered-list">
-                        <li>
-                          <ReactSVG
-                            beforeInjection={(svg) =>
-                              svg.classList.add("project-icon")
-                            }
-                            src={githubLogo}
-                          ></ReactSVG>
-                        </li>
+                        <a
+                          href="https://github.com/rainistiirik23/Destiny-vendorInventory-express"
+                          target="_blank"
+                        >
+                          <li>
+                            <ReactSVG
+                              beforeInjection={(svg) =>
+                                svg.classList.add("project-icon")
+                              }
+                              src={githubLogo}
+                            ></ReactSVG>
+                          </li>
+                        </a>
                         <li>
                           <ReactSVG
                             onClick={() => {
