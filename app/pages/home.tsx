@@ -22,20 +22,27 @@ export function Welcome() {
           <div>
             <ul className="introduction-container-unordered-icon-links-list">
               <li>
-                <ReactSVG
-                  src={linkedInIcon}
-                  beforeInjection={(svg) => {
-                    svg.classList.add("introduction-icons");
-                  }}
-                ></ReactSVG>
+                <a
+                  href="https://linkedin.com/in/rainis-ross-tiirik"
+                  target="_blank"
+                >
+                  <ReactSVG
+                    src={linkedInIcon}
+                    beforeInjection={(svg) => {
+                      svg.classList.add("introduction-icons");
+                    }}
+                  ></ReactSVG>
+                </a>
               </li>
               <li>
-                <ReactSVG
-                  src={githubIcon}
-                  beforeInjection={(svg) => {
-                    svg.classList.add("introduction-icons");
-                  }}
-                ></ReactSVG>
+                <a href="https://github.com/rainistiirik23" target="_blank">
+                  <ReactSVG
+                    src={githubIcon}
+                    beforeInjection={(svg) => {
+                      svg.classList.add("introduction-icons");
+                    }}
+                  ></ReactSVG>
+                </a>
               </li>
               <li>
                 <ReactSVG

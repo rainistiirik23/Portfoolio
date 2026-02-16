@@ -9,9 +9,14 @@ export function HeaderNavigation() {
       </div>
       <div className="header-navigation-unordered-icons-list-container">
         <ul className="header-navigation-unordered-icons-list">
-          <li>
-            <ReactSVG src={githubLogo}></ReactSVG>
-          </li>
+          <a
+            href="https://github.com/rainistiirik23/Portfoolio"
+            target="_blank"
+          >
+            <li>
+              <ReactSVG src={githubLogo}></ReactSVG>
+            </li>
+          </a>
           <li>
             <ReactSVG src={globeIconLogo}></ReactSVG>
           </li>
