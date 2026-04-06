@@ -309,13 +309,10 @@ export function Projects() {
                           }}
                         >
                             <ReactSVG
-                              beforeInjection={(svg) =>
-                                svg.classList.add("project-icon")
-                              }
+                            beforeInjection={(svg) => svg.classList.add("project-icon")}
                               src={githubLogo}
                             ></ReactSVG>
                           </li>
-                        </a>
                         <li>
                           <ReactSVG
                             onClick={() => {
