@@ -1,0 +1,126 @@
+.project-description-container {
+  background-color: #030032;
+  width: 1037px;
+  height: 90vh;
+  overflow-y: scroll;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 23px 65px 76px 70px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+  li {
+    list-style: none;
+  }
+  .project-description-navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 14.23px;
+  }
+  .project-description-exit-button {
+    width: fit-content;
+    height: fit-content;
+    div {
+      width: 50px;
+      height: 45px;
+    }
+  }
+  .project-description-main-header-paragraph-container {
+    margin-bottom: 121px;
+  }
+  .project-description-main-header {
+    padding: 0px 108px 13px 108px;
+    border-bottom: solid #74acff thin;
+    width: fit-content;
+    margin: 0px auto 54px auto;
+    text-align: center;
+  }
+  .project-description-main-paragraph {
+    width: 596px;
+    margin: 0px auto 0px auto;
+  }
+  .project-description-sub-header-paragraph-undordered-list {
+    display: flex;
+    flex-direction: column;
+    gap: 226px;
+  }
+  .project-description-sub-header {
+    padding: 0px 72px 10px 0px;
+    border-bottom: solid #74acff thin;
+    width: fit-content;
+  }
+  .project-description-sub-paragraph {
+    max-width: 815px;
+  }
+}
+.dim-container {
+  filter: blur(4px);
+}
+@media screen and (max-width: 1042px) {
+  .project-description-container {
+    background-color: #030032;
+    width: 250px;
+    height: 90vh;
+    overflow-y: scroll;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 21px 30px 31px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    li {
+      list-style: none;
+    }
+    .project-description-navigation {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 14.23px;
+    }
+    .project-description-exit-button {
+      width: 40px;
+      height: 40px;
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+      div {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .project-description-main-header-paragraph-container {
+      margin-bottom: 121px;
+    }
+    .project-description-main-header {
+      padding: 0px 20px 16px 20px;
+      border-bottom: solid #74acff thin;
+      width: fit-content;
+      margin: 0px auto 54px auto;
+      text-align: center;
+      font-size: 29px;
+    }
+    .project-description-main-paragraph {
+      width: 196px;
+      margin: 0px auto 0px auto;
+    }
+    .project-description-sub-header-paragraph-undordered-list {
+      display: flex;
+      flex-direction: column;
+      gap: 226px;
+      padding: 0;
+    }
+    .project-description-sub-header {
+      padding: 0px 72px 10px 0px;
+      border-bottom: solid #74acff thin;
+      width: fit-content;
+      font-size: 20px;
+    }
+    .project-description-sub-paragraph {
+      max-width: 196px;
+    }
+  }
+}
