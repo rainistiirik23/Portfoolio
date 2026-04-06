@@ -259,44 +259,28 @@ export function Projects() {
                     <div className="unordered-used-tool-list-container">
                       <ul className="unordered-used-tool-list">
                         <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">
-                            Javascript
-                          </span>
+                          <span className="used-tool-name-for-project">Javascript</span>
                         </li>
                         <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">
-                            Remix
-                          </span>
+                          <span className="used-tool-name-for-project">Remix</span>
                         </li>
                         <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">
-                            Node js
-                          </span>
+                          <span className="used-tool-name-for-project">Node js</span>
                         </li>
                         <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">
-                            express
-                          </span>
+                          <span className="used-tool-name-for-project">express</span>
                         </li>
                         <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">
-                            Discord js
-                          </span>
+                          <span className="used-tool-name-for-project">Discord js</span>
                         </li>
                         <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">
-                            html
-                          </span>
+                          <span className="used-tool-name-for-project">html</span>
                         </li>
                         <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">
-                            html
-                          </span>
+                          <span className="used-tool-name-for-project">html</span>
                         </li>
                         <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">
-                            html
-                          </span>
+                          <span className="used-tool-name-for-project">html</span>
                         </li>
                       </ul>
                     </div>
@@ -308,11 +292,11 @@ export function Projects() {
                             setshowGithubProjectsListState(true);
                           }}
                         >
-                            <ReactSVG
+                          <ReactSVG
                             beforeInjection={(svg) => svg.classList.add("project-icon")}
-                              src={githubLogo}
-                            ></ReactSVG>
-                          </li>
+                            src={githubLogo}
+                          ></ReactSVG>
+                        </li>
                         <li>
                           <ReactSVG
                             onClick={() => {
