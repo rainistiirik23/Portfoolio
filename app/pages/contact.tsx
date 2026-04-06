@@ -1,6 +1,9 @@
+import { ReactSVG } from "react-svg";
 import { HeaderNavigation } from "~/components/headerNavigation";
 import { PageNavigationBar } from "~/components/pageNavigationBar";
-
+import githubIcon from "~/src/assets/icons/portfolio-github-repository-icon.svg";
+import mailIcon from "~/src/assets/icons/email.svg";
+import linkedInIcon from "~/src/assets/icons/LinkedIn.svg";
 export function Contact() {
   return (
     <>
@@ -8,16 +11,28 @@ export function Contact() {
         <HeaderNavigation />
       </header>
       <main>
-        <div>
-          <ul>
+        <div className="page-heading-container">
+          <h1 className="page-heading">Soovite ühendust võtta?</h1>
+        </div>
+        <div className="contact-links-container">
+          <ul className="contact-links-unordered-list">
             <li>
-              <img src="" alt="github profile logo" />
+              <div className="contact-links-unordered-list-item-container">
+                <ReactSVG src={githubIcon}></ReactSVG>
+                <span className="contact-link">Link</span>
+              </div>
             </li>
             <li>
-              <img src="" alt="github profile linked in logo" />
+              <div className="contact-links-unordered-list-item-container">
+                <ReactSVG src={mailIcon}></ReactSVG>
+                <span className="contact-link">Link</span>
+              </div>
             </li>
             <li>
-              <img src="" alt="email logo" />
+              <div className="contact-links-unordered-list-item-container">
+                <ReactSVG src={linkedInIcon}></ReactSVG>
+                <span className="contact-link">Link</span>
+              </div>
             </li>
           </ul>
         </div>
