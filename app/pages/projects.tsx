@@ -6,7 +6,6 @@ import { DestinyVendorBot } from "~/components/project-descripitons/destinyVendo
 import globeIconLogo from "~/src/assets/icons/globe.svg";
 import githubLogo from "~/src/assets/icons/portfolio-github-repository-icon.svg";
 import exclamationMarkIcon from "~/src/assets/icons/exclamationMarkIcon.svg";
-import { useState } from "react";
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<String | null>(null);
   const [showGithubProjectsListState, setshowGithubProjectsListState] = useState<Boolean>(false);
