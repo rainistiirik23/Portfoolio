@@ -79,7 +79,30 @@
   gap: 58.74px;
   padding-left: 50px;
 }
-
+.project-github-icon-list-item {
+  position: relative;
+}
+.github-project-links-unordered-list-container {
+  a {
+    text-decoration: none;
+  }
+  background-color: #1d134a;
+  padding: 13px 84px 27px 18px;
+  position: absolute;
+  width: 167px;
+  border-radius: 5px;
+  bottom: 38px;
+  left: 30px;
+}
+.github-project-links-unordered-list {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.github-project-link-list-item {
+  width: fit-content;
+  color: white;
+}
 //---------------------------------------------------------------
 
 //Responsive design starts after
