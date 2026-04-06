@@ -175,7 +175,6 @@ export function Projects() {
                               setshowGithubProjectsListState(false);
                             }}
                           >
-                            {/*   <a href="https://github.com/rainistiirik23/Destiny-vendorInventory-express" target="_blank"> */}
                             <ReactSVG
                               beforeInjection={(svg) => svg.classList.add("project-icon")}
                               src={githubLogo}
