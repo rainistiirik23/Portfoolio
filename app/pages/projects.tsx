@@ -304,11 +304,11 @@ export function Projects() {
                     <div className="project-thumbnail"></div>
                     <div className="project-unordered-icons-list-container">
                       <ul className="project-icons-unordered-list">
-                        <a
-                          href="https://github.com/rainistiirik23/Destiny-vendorInventory-express"
-                          target="_blank"
+                        <li
+                          onClick={() => {
+                            setshowGithubProjectsListState(true);
+                          }}
                         >
-                          <li>
                             <ReactSVG
                               beforeInjection={(svg) =>
                                 svg.classList.add("project-icon")
