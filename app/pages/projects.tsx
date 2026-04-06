@@ -1,4 +1,5 @@
 import { ReactSVG } from "react-svg";
+import { useState, useEffect } from "react";
 import { HeaderNavigation } from "~/components/headerNavigation";
 import { PageNavigationBar } from "~/components/pageNavigationBar";
 import globeIconLogo from "~/src/assets/icons/globe.svg";
