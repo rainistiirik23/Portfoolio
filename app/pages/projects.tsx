@@ -318,17 +318,13 @@ export function Projects() {
                             onClick={() => {
                               setSelectedProject("destiny-vendorbot");
                             }}
-                            beforeInjection={(svg) =>
-                              svg.classList.add("project-icon")
-                            }
+                            beforeInjection={(svg) => svg.classList.add("project-icon")}
                             src={exclamationMarkIcon}
                           ></ReactSVG>
                         </li>
                         <li>
                           <ReactSVG
-                            beforeInjection={(svg) =>
-                              svg.classList.add("project-icon")
-                            }
+                            beforeInjection={(svg) => svg.classList.add("project-icon")}
                             src={globeIconLogo}
                           ></ReactSVG>
                         </li>
