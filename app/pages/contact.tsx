@@ -18,19 +18,19 @@ export function Contact() {
           <ul className="contact-links-unordered-list">
             <li>
               <div className="contact-links-unordered-list-item-container">
-                <ReactSVG src={githubIcon}></ReactSVG>
+                <ReactSVG className="contact-icon" src={githubIcon}></ReactSVG>
                 <span className="contact-link">Link</span>
               </div>
             </li>
             <li>
               <div className="contact-links-unordered-list-item-container">
-                <ReactSVG src={mailIcon}></ReactSVG>
+                <ReactSVG className="contact-icon" src={mailIcon}></ReactSVG>
                 <span className="contact-link">Link</span>
               </div>
             </li>
             <li>
               <div className="contact-links-unordered-list-item-container">
-                <ReactSVG src={linkedInIcon}></ReactSVG>
+                <ReactSVG className="contact-icon" src={linkedInIcon}></ReactSVG>
                 <span className="contact-link">Link</span>
               </div>
             </li>

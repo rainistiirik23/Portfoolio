@@ -16,7 +16,7 @@ export function Skills() {
       </header>
       <main>
         <div className="page-heading-container">
-          <h1 className="page-heading">Skills</h1>
+          <h1 className="page-heading">Oskused</h1>
         </div>
         <div className="unordered-skills-list-container ">
           <ul className="unordered-skills-list">

@@ -1,5 +1,4 @@
 import { ReactSVG } from "react-svg";
-import globeIconLogo from "~/src/assets/icons/globe.svg";
 import githubLogo from "~/src/assets/icons/portfolio-github-repository-icon.svg";
 export function HeaderNavigation() {
   return (
@@ -17,9 +16,6 @@ export function HeaderNavigation() {
               <ReactSVG src={githubLogo}></ReactSVG>
             </li>
           </a>
-          <li>
-            <ReactSVG src={globeIconLogo}></ReactSVG>
-          </li>
         </ul>
       </div>
     </nav>
