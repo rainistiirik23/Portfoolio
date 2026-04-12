@@ -60,7 +60,7 @@ export function Projects() {
 
                               </ul>
                             </div>
-                            <div className="project-thumbnail"></a><img src={'../src/assets/Thumbnails/Destiny-vendorbot-thumbnail.PNG'}/></div>
+                            <div className="project-thumbnail"><img src={'../src/assets/Thumbnails/Destiny-vendorbot-thumbnail.PNG'}/></div>
                             <div className="project-unordered-icons-list-container">
                               <ul className="project-icons-unordered-list">
                                 <a
