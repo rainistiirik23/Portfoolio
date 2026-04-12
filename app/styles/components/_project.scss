@@ -3,7 +3,7 @@
   ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+
   }
 }
 .unordered-project-list-container {
@@ -71,10 +71,10 @@
   margin-bottom: 32px;
 }
 .project-unordered-icons-list-container {
-  padding-left: 50px;
 }
 .project-icons-unordered-list {
-  margin-left: 145px;
+    width: fit-content;
+  margin: auto;
   display: flex;
   gap: 58.74px;
   padding-left: 50px;

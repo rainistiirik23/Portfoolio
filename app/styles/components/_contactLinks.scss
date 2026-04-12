@@ -30,3 +30,15 @@
   flex-direction: column;
   justify-content: center;
 }
+.contact-icon {
+  height: 45px;
+  width: 45px;
+  div {
+    height: 45px;
+    width: 45px;
+    svg {
+      height: 45px;
+      width: 45px;
+    }
+  }
+}

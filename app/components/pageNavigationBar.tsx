@@ -18,7 +18,7 @@ export function PageNavigationBar() {
               className="page-navigation-bar-unordered-icon-list-item-container"
             ></ReactSVG>
             <span className="page-navigation-bar-unordered-icon-list-item-descriptor">
-              Home
+              Kodu
             </span>
           </a>
         </li>
@@ -32,7 +32,7 @@ export function PageNavigationBar() {
               className="page-navigation-bar-unordered-icon-list-item-container"
             ></ReactSVG>
             <span className="page-navigation-bar-unordered-icon-list-item-descriptor">
-              Skills
+              Oskused
             </span>
           </a>
         </li>
@@ -46,7 +46,7 @@ export function PageNavigationBar() {
               className="page-navigation-bar-unordered-icon-list-item-container"
             ></ReactSVG>
             <span className="page-navigation-bar-unordered-icon-list-item-descriptor">
-              Project
+              Projektid
             </span>
           </a>
         </li>
@@ -60,7 +60,7 @@ export function PageNavigationBar() {
               className="page-navigation-bar-unordered-icon-list-item-container"
             ></ReactSVG>
             <span className="page-navigation-bar-unordered-icon-list-item-descriptor">
-              Contact
+              Kontakt
             </span>
           </a>
         </li>

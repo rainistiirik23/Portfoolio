@@ -38,15 +38,13 @@ export function Projects() {
                   <ul className="unordered-project-list-container">
                     <li className="unordered-project-list-item">
                       <div className="project-container">
-                        <h2 className="project-title">Projekti tiitel</h2>
+                        <h2 className="project-title">Destiny vendorbot</h2>
                         <div className="project-details-container">
                           <div>
-                            <p className="project-description">Projekti kirjeldus</p>
+                            <p className="project-description">Projekt, mis koosneb enda tehtud apist, veebilehest ja discord botist</p>
                             <div className="unordered-used-tool-list-container">
                               <ul className="unordered-used-tool-list">
-                                <li className="unordered-used-tool-list-item">
-                                  <span className="used-tool-name-for-project">Javascript</span>
-                                </li>
+
                                 <li className="unordered-used-tool-list-item">
                                   <span className="used-tool-name-for-project">Remix</span>
                                 </li>
@@ -54,23 +52,15 @@ export function Projects() {
                                   <span className="used-tool-name-for-project">Node js</span>
                                 </li>
                                 <li className="unordered-used-tool-list-item">
-                                  <span className="used-tool-name-for-project">express</span>
+                                  <span className="used-tool-name-for-project">Express</span>
                                 </li>
                                 <li className="unordered-used-tool-list-item">
                                   <span className="used-tool-name-for-project">Discord js</span>
                                 </li>
-                                <li className="unordered-used-tool-list-item">
-                                  <span className="used-tool-name-for-project">html</span>
-                                </li>
-                                <li className="unordered-used-tool-list-item">
-                                  <span className="used-tool-name-for-project">html</span>
-                                </li>
-                                <li className="unordered-used-tool-list-item">
-                                  <span className="used-tool-name-for-project">html</span>
-                                </li>
+
                               </ul>
                             </div>
-                            <div className="project-thumbnail"></div>
+                            <div className="project-thumbnail"></a><img src={'../src/assets/Thumbnails/Destiny-vendorbot-thumbnail.PNG'}/></div>
                             <div className="project-unordered-icons-list-container">
                               <ul className="project-icons-unordered-list">
                                 <a
@@ -134,10 +124,10 @@ export function Projects() {
             <ul className="unordered-project-list-container">
               <li className="unordered-project-list-item">
                 <div className="project-container">
-                  <h2 className="project-title">Projekti tiitel</h2>
+                  <h2 className="project-title">Destiny vendorbot</h2>
                   <div className="project-details-container">
                     <div>
-                      <p className="project-description">Projekti kirjeldus</p>
+                      <p className="project-description">Api, veebileht ja discord bot, mille järgi saab teada, missuguseid relvi tegelane müüb mängus Destiny 2 ja kus saab luua soovinimekirja, et teada kasutale kui soovitud relv on müügil</p>
                       <div className="unordered-used-tool-list-container">
                         <ul className="unordered-used-tool-list">
                           <li className="unordered-used-tool-list-item">
@@ -147,22 +137,10 @@ export function Projects() {
                             <span className="used-tool-name-for-project">Remix</span>
                           </li>
                           <li className="unordered-used-tool-list-item">
-                            <span className="used-tool-name-for-project">Node js</span>
-                          </li>
-                          <li className="unordered-used-tool-list-item">
                             <span className="used-tool-name-for-project">express</span>
                           </li>
                           <li className="unordered-used-tool-list-item">
                             <span className="used-tool-name-for-project">Discord js</span>
-                          </li>
-                          <li className="unordered-used-tool-list-item">
-                            <span className="used-tool-name-for-project">html</span>
-                          </li>
-                          <li className="unordered-used-tool-list-item">
-                            <span className="used-tool-name-for-project">html</span>
-                          </li>
-                          <li className="unordered-used-tool-list-item">
-                            <span className="used-tool-name-for-project">html</span>
                           </li>
                         </ul>
                       </div>
@@ -273,15 +251,7 @@ export function Projects() {
                         <li className="unordered-used-tool-list-item">
                           <span className="used-tool-name-for-project">Discord js</span>
                         </li>
-                        <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">html</span>
-                        </li>
-                        <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">html</span>
-                        </li>
-                        <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">html</span>
-                        </li>
+
                       </ul>
                     </div>
                     <div className="project-thumbnail"></div>
@@ -304,12 +274,6 @@ export function Projects() {
                             }}
                             beforeInjection={(svg) => svg.classList.add("project-icon")}
                             src={exclamationMarkIcon}
-                          ></ReactSVG>
-                        </li>
-                        <li>
-                          <ReactSVG
-                            beforeInjection={(svg) => svg.classList.add("project-icon")}
-                            src={globeIconLogo}
                           ></ReactSVG>
                         </li>
                       </ul>
