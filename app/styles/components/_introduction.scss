@@ -29,6 +29,15 @@
   margin: 223px 0px 0px 0px;
   li {
     list-style: none;
+     cursor: pointer;
+     svg{
+    filter: brightness(0.7);
+  }
+}
+li:hover{
+    svg {
+     filter: brightness(1);
+  }
   }
   display: flex;
   flex-direction: row;
