@@ -46,6 +46,9 @@ export function Welcome() {
               </li>
               <li>
                 <ReactSVG
+                onClick={()=>{
+                    navigator.clipboard.writeText("rainis.tiirik9@gmail.com")
+                }}
                   src={emailIcon}
                   beforeInjection={(svg) => {
                     svg.classList.add("introduction-icons");

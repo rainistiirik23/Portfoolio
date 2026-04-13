@@ -19,19 +19,23 @@ export function Contact() {
             <li>
               <div className="contact-links-unordered-list-item-container">
                 <ReactSVG className="contact-icon" src={githubIcon}></ReactSVG>
-                <span className="contact-link">Link</span>
+                <a href="https://github.com/rainistiirik23" target="_blank" className="contact-link">Github</a>
               </div>
             </li>
             <li>
               <div className="contact-links-unordered-list-item-container">
                 <ReactSVG className="contact-icon" src={mailIcon}></ReactSVG>
-                <span className="contact-link">Link</span>
+                <span onClick={()=>{
+                      navigator.clipboard.writeText("rainis.tiirik9@gmail.com")
+                }}
+                className="contact-link">rainis.tiirik9@gmail.com
+                </span>
               </div>
             </li>
             <li>
               <div className="contact-links-unordered-list-item-container">
                 <ReactSVG className="contact-icon" src={linkedInIcon}></ReactSVG>
-                <span className="contact-link">Link</span>
+                <a href="www.linkedin.com/in/rainis-ross-tiirik"  className="contact-link">LinkedIn</a>
               </div>
             </li>
           </ul>
