@@ -80,11 +80,20 @@
 .project-unordered-icons-list-container {
 }
 .project-icons-unordered-list {
-    width: fit-content;
+  width: fit-content;
   margin: auto;
   display: flex;
   gap: 58.74px;
   padding-left: 50px;
+  svg{
+    filter: brightness(0.7);
+  }
+  li:hover{
+   cursor: pointer;
+   svg{
+    filter: brightness(1);
+  }
+  }
 }
 .project-github-icon-list-item {
   position: relative;

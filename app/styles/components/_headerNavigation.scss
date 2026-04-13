@@ -45,6 +45,14 @@ header {
   width: 127.36px;
   padding: 0;
   margin: 0;
+  svg{
+    filter: brightness(0.7);
+  }
+}
+.header-navigation-unordered-icons-list:hover{
+     svg{
+    filter: brightness(1);
+  }
 }
 @media screen and (max-width: 380px) {
   .header-navigation {
