@@ -29,6 +29,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-decoration: none;
+}
+.contact-link:hover{
+    color: blue;
+    cursor: pointer;
 }
 .contact-icon {
   height: 45px;
