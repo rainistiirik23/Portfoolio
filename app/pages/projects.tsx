@@ -3,9 +3,10 @@ import { useState, useEffect } from "react";
 import { HeaderNavigation } from "~/components/headerNavigation";
 import { PageNavigationBar } from "~/components/pageNavigationBar";
 import { DestinyVendorBot } from "~/components/project-descripitons/destinyVendorBot";
-import globeIconLogo from "~/src/assets/icons/globe.svg";
+/* import globeIconLogo from "~/src/assets/icons/globe.svg"; */
 import githubLogo from "~/src/assets/icons/portfolio-github-repository-icon.svg";
 import exclamationMarkIcon from "~/src/assets/icons/exclamationMarkIcon.svg";
+import destinyVendorbotThumbnail from "~/src/assets/Thumbnails/Destiny-vendorbot-thumbnail 1.svg"
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<String | null>(null);
   const [showGithubProjectsListState, setshowGithubProjectsListState] = useState<Boolean>(false);
@@ -44,12 +45,8 @@ export function Projects() {
                             <p className="project-description">Projekt, mis koosneb enda tehtud apist, veebilehest ja discord botist</p>
                             <div className="unordered-used-tool-list-container">
                               <ul className="unordered-used-tool-list">
-
                                 <li className="unordered-used-tool-list-item">
                                   <span className="used-tool-name-for-project">Remix</span>
-                                </li>
-                                <li className="unordered-used-tool-list-item">
-                                  <span className="used-tool-name-for-project">Node js</span>
                                 </li>
                                 <li className="unordered-used-tool-list-item">
                                   <span className="used-tool-name-for-project">Express</span>
@@ -57,10 +54,9 @@ export function Projects() {
                                 <li className="unordered-used-tool-list-item">
                                   <span className="used-tool-name-for-project">Discord js</span>
                                 </li>
-
                               </ul>
                             </div>
-                            <div className="project-thumbnail"><img src={'../src/assets/Thumbnails/Destiny-vendorbot-thumbnail.PNG'}/></div>
+                            <div className="project-thumbnail"><ReactSVG className="thumbnail-image" src={destinyVendorbotThumbnail}></ReactSVG></div>
                             <div className="project-unordered-icons-list-container">
                               <ul className="project-icons-unordered-list">
                                 <a
@@ -81,12 +77,6 @@ export function Projects() {
                                     }}
                                     beforeInjection={(svg) => svg.classList.add("project-icon")}
                                     src={exclamationMarkIcon}
-                                  ></ReactSVG>
-                                </li>
-                                <li>
-                                  <ReactSVG
-                                    beforeInjection={(svg) => svg.classList.add("project-icon")}
-                                    src={globeIconLogo}
                                   ></ReactSVG>
                                 </li>
                               </ul>
@@ -116,7 +106,9 @@ export function Projects() {
         <header>
           <HeaderNavigation />
         </header>
-        <main>
+        <main onClick={()=>{
+            setshowGithubProjectsListState(false);
+        }}>
           <div className="page-heading-container">
             <h1 className="page-heading">Projektid</h1>
           </div>
@@ -127,24 +119,21 @@ export function Projects() {
                   <h2 className="project-title">Destiny vendorbot</h2>
                   <div className="project-details-container">
                     <div>
-                      <p className="project-description">Api, veebileht ja discord bot, mille järgi saab teada, missuguseid relvi tegelane müüb mängus Destiny 2 ja kus saab luua soovinimekirja, et teada kasutale kui soovitud relv on müügil</p>
+                      <p className="project-description">Projekt, mis koosneb enda tehtud apist, veebilehest ja discord botist</p>
                       <div className="unordered-used-tool-list-container">
                         <ul className="unordered-used-tool-list">
-                          <li className="unordered-used-tool-list-item">
-                            <span className="used-tool-name-for-project">Javascript</span>
-                          </li>
-                          <li className="unordered-used-tool-list-item">
-                            <span className="used-tool-name-for-project">Remix</span>
-                          </li>
-                          <li className="unordered-used-tool-list-item">
-                            <span className="used-tool-name-for-project">express</span>
-                          </li>
-                          <li className="unordered-used-tool-list-item">
-                            <span className="used-tool-name-for-project">Discord js</span>
-                          </li>
+                           <li className="unordered-used-tool-list-item">
+                                  <span className="used-tool-name-for-project">Remix</span>
+                                </li>
+                                <li className="unordered-used-tool-list-item">
+                                  <span className="used-tool-name-for-project">Express</span>
+                                </li>
+                                <li className="unordered-used-tool-list-item">
+                                  <span className="used-tool-name-for-project">Discord js</span>
+                                </li>
                         </ul>
                       </div>
-                      <div className="project-thumbnail"></div>
+                      <div className="project-thumbnail"><ReactSVG className="thumbnail-image" src={destinyVendorbotThumbnail}></ReactSVG></div>
                       <div className="project-unordered-icons-list-container">
                         <ul className="project-icons-unordered-list">
                           <li
@@ -196,12 +185,6 @@ export function Projects() {
                               src={exclamationMarkIcon}
                             ></ReactSVG>
                           </li>
-                          <li>
-                            <ReactSVG
-                              beforeInjection={(svg) => svg.classList.add("project-icon")}
-                              src={globeIconLogo}
-                            ></ReactSVG>
-                          </li>
                         </ul>
                       </div>
                     </div>
@@ -230,31 +213,24 @@ export function Projects() {
           <ul className="unordered-project-list-container">
             <li className="unordered-project-list-item">
               <div className="project-container">
-                <h2 className="project-title">Projekti tiitel</h2>
+                <h2 className="project-title">Destiny vendorbot</h2>
                 <div className="project-details-container">
                   <div>
-                    <p className="project-description">Projekti kirjeldus</p>
+                    <p className="project-description">Projekt, mis koosneb enda tehtud apist, veebilehest ja discord botist</p>
                     <div className="unordered-used-tool-list-container">
                       <ul className="unordered-used-tool-list">
-                        <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">Javascript</span>
-                        </li>
-                        <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">Remix</span>
-                        </li>
-                        <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">Node js</span>
-                        </li>
-                        <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">express</span>
-                        </li>
-                        <li className="unordered-used-tool-list-item">
-                          <span className="used-tool-name-for-project">Discord js</span>
-                        </li>
-
+                     <li className="unordered-used-tool-list-item">
+                                  <span className="used-tool-name-for-project">Remix</span>
+                                </li>
+                                <li className="unordered-used-tool-list-item">
+                                  <span className="used-tool-name-for-project">Express</span>
+                                </li>
+                                <li className="unordered-used-tool-list-item">
+                                  <span className="used-tool-name-for-project">Discord js</span>
+                                </li>
                       </ul>
                     </div>
-                    <div className="project-thumbnail"></div>
+                    <div className="project-thumbnail"><ReactSVG className="thumbnail-image" src={destinyVendorbotThumbnail}></ReactSVG></div>
                     <div className="project-unordered-icons-list-container">
                       <ul className="project-icons-unordered-list">
                         <li

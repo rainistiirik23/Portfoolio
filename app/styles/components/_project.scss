@@ -31,8 +31,8 @@
 .project-description {
   color: white;
   font-family: variables.$mainFont;
-
   margin-bottom: 24px;
+  max-width: 247.55px;
 }
 .unordered-used-tool-list-container {
   margin-bottom: 42px;
@@ -64,12 +64,19 @@
 }
 .project-thumbnail {
   width: 335.55px;
-  height: 260px;
-  background-color: #196673;
-
   border-radius: 25px;
   margin-bottom: 32px;
 }
+.thumbnail-image{
+    width: 100%;
+    div{
+        width: 100%;
+        svg{
+          width: 100%;
+          height: 100%;
+        }
+    }
+  }
 .project-unordered-icons-list-container {
 }
 .project-icons-unordered-list {
@@ -87,7 +94,7 @@
     text-decoration: none;
   }
   background-color: #1d134a;
-  padding: 13px 84px 27px 18px;
+  padding: 13px 15.97px 27px 18px;
   position: absolute;
   width: 167px;
   border-radius: 5px;
@@ -98,10 +105,13 @@
   display: flex;
   flex-direction: column;
   gap: 29px;
+  a{
+    color: white;
+  }
 }
 .github-project-link-list-item {
-  width: fit-content;
   color: white;
+  border-bottom: white solid thin;
 }
 //---------------------------------------------------------------
 
@@ -131,11 +141,17 @@
   }
   .project-thumbnail {
     width: 146px;
-    height: 260px;
-    background-color: #196673;
+  }
+  .thumbnail-image{
+    width: 100%;
 
-    border-radius: 25px;
-    margin-bottom: 32px;
+    div{
+        width: 100%;
+        svg{
+          width: 100%;
+          zoom: 140%;
+        }
+    }
   }
   .unordered-project-list-item {
     /* max-height: 584px; */
@@ -178,5 +194,18 @@
   .project-icon {
     height: 25px;
     width: 24.66px;
+  }
+  .github-project-links-unordered-list-container{
+    background-color: #1d134a;
+    padding: 13px 15.97px 27px 18px;
+    position: absolute;
+    width: 100px;
+    border-radius: 5px;
+    bottom: 38px;
+    left: 9px;
+    a{
+        color: white;
+
+    }
   }
 }
