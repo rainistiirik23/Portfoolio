@@ -119,7 +119,7 @@ export function Projects() {
                   <h2 className="project-title">Destiny vendorbot</h2>
                   <div className="project-details-container">
                     <div>
-                      <p className="project-description">Projekt, mis koosneb enda tehtud apist, veebilehest ja discord botist</p>
+                      <p className="project-description">Projekt, mis koosneb enda tehtud apist, veebilehest ja discord botist.</p>
                       <div className="unordered-used-tool-list-container">
                         <ul className="unordered-used-tool-list">
                            <li className="unordered-used-tool-list-item">
