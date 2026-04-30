@@ -103,7 +103,9 @@ export function Projects() {
   if (showGithubProjectsListState) {
     return (
       <>
-        <header>
+        <header onClick={()=>{
+            setshowGithubProjectsListState(false)
+        }}>
           <HeaderNavigation />
         </header>
         <main onClick={()=>{
@@ -194,7 +196,9 @@ export function Projects() {
             </ul>
           </div>
         </main>
-        <footer>
+        <footer onClick={()=>{
+            setshowGithubProjectsListState(false)
+        }}>
           <PageNavigationBar />
         </footer>
       </>
